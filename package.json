@@ -1,0 +1,22 @@
+{
+  "name": "ded",
+  "version": "1.0.0",
+  "description": "uc berkeley discovery project data enabled donations",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brianwsyang/data_enabled_donations.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brianwsyang/data_enabled_donations/issues"
+  },
+  "homepage": "https://github.com/brianwsyang/data_enabled_donations#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

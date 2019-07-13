@@ -1,0 +1,43 @@
+<html>
+
+	<head>
+
+		<title>
+			DED Discovery Project
+		</title>
+
+	</head>
+
+	<body>
+
+		<h1>
+			UC Berkeley Discovery Project
+		</h1>
+
+		<h2>
+			Data Enabled Donations
+		</h2>
+
+		<hr />
+
+		<p>
+			This is an example website that I am trying to build.
+		</p>
+
+	</body>
+
+</html>
+
+
+
+
+
+<script src="/socket.io/socket.io.js"></script>
+<script>
+	var socket = io.connect('http://localhost');
+	socket.on('news', function(data) {
+		console.log(data);
+		socket.emit('my other event', { my: 'data' });
+	});
+</script>
+
