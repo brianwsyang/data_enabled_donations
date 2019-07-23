@@ -11,13 +11,40 @@ main{
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    background-color: #003262;
+    background-color: #fdf9f8;
     font-family: 'Poppins', sans-serif;
 }
 
 .logo{
-    color: #fdb515;
+    color: #003262;
     text-transform: uppercase;
     letter-spacing: 3px;
+    text-align: center;
 }
 
+nav{
+    padding: 5px 15%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #003262;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+.nav-links a{
+    color: #fdb515;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 15px;
+}
