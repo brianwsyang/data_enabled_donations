@@ -4,19 +4,28 @@
     box-sizing: border-box;
 }
 
+p{
+    word-break: keep-all;
+    white-space: normal;
+}
+
 main{
-    padding: 15px 0px;
+    padding: 25px 0px 15px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    background-color: #fdf9f8;
+    background-image: url("sf.jpg");
+    background-position: 0% 67%;
+    background-size: cover;
     font-family: 'Poppins', sans-serif;
 }
 
 .logo{
     color: #003262;
+    -webkit-text-stroke: 0.1px #003262;
+    -webkit-text-fill-color: #fdb515;
     text-transform: uppercase;
     letter-spacing: 3px;
     text-align: center;
@@ -48,3 +57,4 @@ nav{
     font-weight: bold;
     font-size: 15px;
 }
+
