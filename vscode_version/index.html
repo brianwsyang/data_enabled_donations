@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" src="style.css">
+
+    <title>Document</title>
+
+</head>
+
+<body>
+        
+    <h1>
+        UC Berkeley Discovery Project
+    </h1>
+
+    <h2>
+        Data Enabled Donations
+    </h2>
+
+    <hr />
+
+    <p>
+        This is an example website that I am trying to build.
+    </p>
+
+</body>
+
+</html>
+
+<script src="/socket.io/socket.io.js"></script>
+<script>
+
+    var socket = io.connect();
+
+    socket.on('news', function(data) {
+        
+        console.log(data);
+        socket.emit('my other event', { my:'data'});
+
+    });
+
+    socket.on('test', function(data) {
+        
+        console.log(data);
+        socket.emit('test2', { ex2:'test2ex'});
+
+    });
+
+</script>

@@ -3,14 +3,14 @@ const express = require('express'),
 	  server = require('http').Server(app),
 	  io = require('socket.io')(server);
 
-
+app.use(express.static("."));
 
 server.listen( port=process.env.PORT || 3000, function() {
 	console.log('Listening to port: ' + port);
 });
 
 app.get('/', function (request, response) {
-	response.sendFile(__dirname + '/home.htm');
+	response.sendFile(__dirname + '/index.html');
 });
 
 
