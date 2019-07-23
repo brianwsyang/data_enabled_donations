@@ -1,14 +1,23 @@
-* {
-	margin: 0px;
-	padding: 0px;
-	box-sizing: border-box;
-	font-family: 'Poppins', sans-serif;
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
-body {
-	background-color: #8c94ff;
+main{
+    padding: 15px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #003262;
+    font-family: 'Poppins', sans-serif;
 }
 
-h1 {
-	font-family: 'Poppins', sans-serif;
+.logo{
+    color: #fdb515;
+    text-transform: uppercase;
+    letter-spacing: 3px;
 }
+
