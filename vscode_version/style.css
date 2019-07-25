@@ -24,7 +24,7 @@ main{
 
 .logo{
     color: #003262;
-    -webkit-text-stroke: 0.1px #003262;
+    -webkit-text-stroke: 0.05px #003262;
     -webkit-text-fill-color: #fdb515;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -76,11 +76,16 @@ about{
 }
 
 footer{
-    background-color: #323130;
-    padding: 25px 0px;
+    /* background-color: #323130; */
+    background-color: #003262;
+    padding: 30px 15% 50px;
     font-family: 'Poppins', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+}
+
+#marker-map{
+    width: 70%;
 }

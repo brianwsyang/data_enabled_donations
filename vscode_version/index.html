@@ -42,6 +42,29 @@
             </li>
         </ul>
     </nav>
+
+    <div id="marker-map"></div>
+    <script>
+        // Initialize and add the map
+        function initMap() {
+            // The location of Uluru
+            var uluru = {lat: -25.344, lng: 131.036};
+            // The map, centered at Uluru
+            var map = new google.maps.Map(
+                document.getElementById('map'), {zoom: 4, center: uluru});
+            // The marker, positioned at Uluru
+            var marker = new google.maps.Marker({position: uluru, map: map});
+        }
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAUt1fg-et-bEZy4nT-P3D7CmqJxF35Xew&callback=initMap"></script>
 </body>
+
+<footer>
+    <p style="color: #fdb515; font-size: 12px">
+        University of California, Berkeley <br>
+        Division of Data Science and Information <br>
+        Summer 2019 - Discovery Projects
+    </p>
+</footer>
 
 </html>
