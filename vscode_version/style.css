@@ -86,6 +86,11 @@ footer{
     align-items: center;
 }
 
-#marker-map{
-    width: 70%;
+#map {
+    display: flex;
+    justify-content: column;
+    flex-direction: row;
+    align-items: center;
+    height: 400px;  /* The height is 400 pixels */
+    width: 70%;  /* The width is the width of the web page */
 }
