@@ -87,6 +87,7 @@ footer{
 }
 
 #map {
+    margin: 75px 15% 50px;
     display: flex;
     justify-content: column;
     flex-direction: row;
