@@ -16,7 +16,7 @@ main{
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    background-image: url("sf.jpg");
+    background-image: url("images/sf.jpg");
     background-position: 0% 70%;
     background-size: cover;
     font-family: 'Poppins', sans-serif;
