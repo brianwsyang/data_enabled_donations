@@ -87,11 +87,20 @@ footer{
 }
 
 #map {
-    margin: 75px 15% 50px;
+    margin: 75px 0px 50px;
     display: flex;
     justify-content: column;
     flex-direction: row;
     align-items: center;
     height: 400px;  /* The height is 400 pixels */
-    width: 45%;  /* The width is the width of the web page */
+    width: 100%;  /* The width is the width of the web page */
+}
+
+#map_com {
+    background-color: #fdf9f8;
+    padding: 10px 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
 }
