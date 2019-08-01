@@ -92,8 +92,9 @@ footer{
     justify-content: column;
     flex-direction: row;
     align-items: center;
-    height: 400px;  /* The height is 400 pixels */
-    width: 100%;  /* The width is the width of the web page */
+    /* height: 600px; */
+    padding-top: 45%;
+    width: 65%;
 }
 
 #map_com {
@@ -103,4 +104,26 @@ footer{
     flex-direction: row;
     justify-content: space-around;
     align-content: center;
+    align-items: center;
+}
+
+#com_shell {
+    width: 30%;
+    background-color: #003262;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+}
+
+#com {
+    width: 98%;
+    height: 98%;
+    background-color: #fdf9f8;
+    align-items: center;
+}
+
+#h_div {
+    width: 5%;
+    height: 10px;
 }
