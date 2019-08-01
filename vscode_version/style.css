@@ -88,7 +88,7 @@ footer{
 
 #map {
     margin: 75px 0px 50px;
-    display: flex;
+    display: flex 1 1 auto;
     justify-content: column;
     flex-direction: row;
     align-items: center;
@@ -101,6 +101,7 @@ footer{
     background-color: #fdf9f8;
     padding: 10px 15%;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
     align-content: center;
@@ -108,22 +109,31 @@ footer{
 }
 
 #com_shell {
-    width: 30%;
+    /* width: 30%;
+    padding-top: 41%;
     background-color: #003262;
     align-content: center;
     align-items: center;
     justify-content: space-around;
-    display: flex;
-}
+    display: flex; */
 
-#com {
-    width: 98%;
-    height: 98%;
-    background-color: #fdf9f8;
+    align-self: stretch;
+
+    width: 30%;
+    height: 70%;
+    border-color: #003262;
+    border-width: 2px;
+    display: flex 1 1 30%;
+    border-style: solid;
+    align-content: center;
     align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: 75px 0px 50px;
 }
 
-#h_div {
+#h-div {
     width: 5%;
     height: 10px;
+    flex: 1 1 auto;
 }
