@@ -35,14 +35,35 @@
                 <a href="donate.html">Donate</a>
             </li>
             <li>
-                <a href="news.html">News</a>
-            </li>
-            <li>
                 <a href="aboutus.html">About Us</a>
             </li>
         </ul>
     </nav>
-  
+
+    <form action = '' method = 'POST'>
+        <fieldset>
+            <p>
+            Name: <input type='text' name='Name' />
+            </p>
+            <p>
+            Email: <input type='text' name='Email' />
+            </p>
+        </fieldset>
+
+        Shelter Location: <select name="shelter_location">
+            <option value="australia">Food</option>
+        </select>
+
+        Type of Good: <select name="good_type">
+            <option value="food">Food</option>
+            <option value="clothes">Clothes</option>
+            <option value="blankets">Blankets</option>
+            <option value="canada">Clothes</option>
+            <option value="usa">Blankets</option>
+        </select>
+        <input type="submit">
+    </form>
+
 
 </body>
 
