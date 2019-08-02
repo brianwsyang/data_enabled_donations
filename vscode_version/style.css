@@ -105,22 +105,11 @@ footer{
     flex-direction: row;
     justify-content: space-around;
     align-content: center;
-    align-items: center;
+    align-items: stretch;
 }
 
 #com_shell {
-    /* width: 30%;
-    padding-top: 41%;
-    background-color: #003262;
-    align-content: center;
-    align-items: center;
-    justify-content: space-around;
-    display: flex; */
-
-    align-self: stretch;
-
     width: 30%;
-    height: 70%;
     border-color: #003262;
     border-width: 2px;
     display: flex 1 1 30%;
