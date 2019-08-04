@@ -97,7 +97,7 @@ footer {
     width: 65%;
 }
 
-#map_com {
+.body_div {
     background-color: #fdf9f8;
     padding: 10px 15%;
     display: flex;
@@ -130,8 +130,8 @@ footer {
 }
 
 form {
-    padding: 50px 50px 50px 50px;
-    width: 70%;
+    padding: 50px 0px;
+    width: 60%;
 }
 
 input[type=text] {
@@ -143,7 +143,7 @@ input[type=text] {
 }
   
 input[type=submit] {
-    width: 100%;
+    width: 80%;
     background-color: #4CAF50;
     color: white;
     padding: 14px 20px;
