@@ -1,0 +1,10 @@
+{
+    "markdown.preview.breaks": true,
+    // "liveServer.settings.useWebExt":true,
+    // "liveServer.settings.proxy": {
+    //     "enable": true,
+    //     "baseUri": "/", 
+    //     "proxyUri": "http://127.0.0.1/submitform.php" 
+    // }
+    
+}

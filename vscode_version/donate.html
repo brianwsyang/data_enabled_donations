@@ -43,7 +43,11 @@
     
 
     <div class="body_div">
-        <form action = '/submitform.php' method = 'POST'>
+        <form action = '/submitted.html' >
+            <h3>
+                    Update Form for Donation Estimates
+            </h3>
+
             <fieldset>
                 <p>
                 Name: <input type='text' name="Name" />
@@ -53,16 +57,60 @@
                 </p>
             </fieldset>
 
-            Shelter Location: <select name="shelter_location">
-                <option value="australia">Food</option>
-            </select>
+            <!-- <script>
+                (function() {
+                    var csv_path = "data/sample.csv",
 
-            Type of Good: <select name="goods_type">
-                <option value="food">Food</option>
-                <option value="clothes">Clothes</option>
-                <option value="blankets">Blankets</option>
-            </select>
-            <input type="submit" name = "submit_form" value = "submit">
+                    var renderCSVDropdown = function(csv) {
+                        var dropdown = $('select#my-dropdown');
+                        for(var i = 0; i < csv.length; i++) {
+                            var record = csv[i];
+                            var entry = $('<option>').attr('value', record.someProperty);
+                            dropdown.append(entry);
+                        }
+                    };
+
+                    $.get(csv_path, function(data) {
+                        var csv = CSVToArray(data);
+                        renderCSVDropdown(csv);
+                    });
+
+                }());
+            </script> -->
+                <p>
+                Shelter Location: <select name="shelter_location">
+                    <option value="ABBEVILLE HIGH SCHOOL">ABBEVILLE HIGH SCHOOL</option>
+                    <option value="ABBEVILLE UNITED METHODIST CHURCH">ABBEVILLE UNITED METHODIST CHURCH</option>
+                    <option value="CALVARY BAPTIST CHURCH">CALVARY BAPTIST CHURCH</option>
+                    <option value="CRUMLEY CHAPEL UNITED METHODIST CHURCH">CRUMLEY CHAPEL UNITED METHODIST CHURCH</option>
+                </select>
+                </p>
+
+
+            <fieldset>
+                <p class = "items">
+                <h4>Food:</h4> <input type='text' name="Name" /> <br>
+                <input type="checkbox" name="vegetarian" value="vegetarian"> vegetarian<br>
+                <input type="checkbox" name="gluten-free" value="gluten-free"> gluten-free <br>
+                </p>
+
+                <p class = "items">
+                <h4>Clothes:</h4> <br>
+                <input type="checkbox" name="s_size" value="small"> small
+                <input type='text' name="small amount" /><br>
+                <input type="checkbox" name="m_size" value="medium"> medium
+                <input type='text' name="medium amount" /> <br>
+                <input type="checkbox" name="l_size" value="large"> large
+                <input type='text' name="large amount" /> <br>
+
+                </p>
+
+                <p class = "items">
+                <h4>Other Items: </h4><input type='text' name="resources" />
+                </p>
+            
+            </fieldset>
+            <input type="submit" name = "submit_form" value = "Submit">
         </form>
     </div>
     
