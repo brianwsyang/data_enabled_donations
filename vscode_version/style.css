@@ -115,6 +115,7 @@ footer {
     justify-content: space-around;
     align-content: center;
     align-items: stretch;
+    font-family: 'Raleway', sans-serif;
 }
 
 #submitted {
