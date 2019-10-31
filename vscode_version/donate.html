@@ -40,23 +40,44 @@
         </ul>
     </nav>
 
-    
+    <h3>
+        Update Form for Donation Estimates
+    </h3>
+
+     <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd-KcSkrax46nb2k1fap7JUhXm1KfIZcQ17t75VLs9F8SS_jA/viewform?embedded=true" width="640" height="1047" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
     <div class="body_div">
-        <form action = '/submitted.html' >
-            <h3>
-                    Update Form for Donation Estimates
-            </h3>
+            <script type="text/javascript">var submitted=false;</script>
+            <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" 
+            onload="if(submitted) {window.location='submitted.html';}"></iframe>
 
-            <fieldset>
+        <form method="post" target="hidden_iframe" onsubmit="submitted=true;" action="https://docs.google.com/forms/d/e/1FAIpQLSd-KcSkrax46nb2k1fap7JUhXm1KfIZcQ17t75VLs9F8SS_jA/formResponse">
                 <p>
-                Name: <input type='text' name="Name" />
+                <label>Name:</label> 
+                <input type='text' name="entry.644559408" required/>
                 </p>
                 <p>
-                Email: <input type='text' name='Email' />
+                <label>Email:</label> 
+                <input type='text' name="entry.29285301" required/>
                 </p>
-            </fieldset>
 
+                <p>
+                    <label>Food:</label> 
+                    <input type='text' name="entry.2137131981"/>
+                </p>
+
+                <p>
+                <label>Clothing:</label> 
+                <input type='text' name="entry.2093890696"/>
+                </p>
+
+                <p>
+                    <label>Other:</label> 
+                    <input type='text' name="entry.749798660"/>
+                </p>
+            <button type="submit" name ="submit_form">Submit</button>
+        </form>
+    </div>
             <!-- <script>
                 (function() {
                     var csv_path = "data/sample.csv",
@@ -77,7 +98,9 @@
 
                 }());
             </script> -->
-                <p>
+                
+            <!-- old code below -->
+                <!-- <p>
                 Shelter Location: <select name="shelter_location">
                     <option value="ABBEVILLE HIGH SCHOOL">ABBEVILLE HIGH SCHOOL</option>
                     <option value="ABBEVILLE UNITED METHODIST CHURCH">ABBEVILLE UNITED METHODIST CHURCH</option>
@@ -110,9 +133,8 @@
                 </p>
             
             </fieldset>
-            <input type="submit" name = "submit_form" value = "Submit">
-        </form>
-    </div>
+            <input type="submit" name = "submit_form" value = "Submit"> -->
+   
     
 
 
