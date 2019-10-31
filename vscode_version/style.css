@@ -128,7 +128,7 @@ footer {
     flex: 1 1 auto;
 }
 
-form {
+/* form {
     padding: 50px 0px;
     width: 80%;
 }
@@ -154,7 +154,7 @@ input[type=submit] {
   
 input[type=submit]:hover {
     background-color: #164573;
-}
+} */
 
 /*   
 div {
